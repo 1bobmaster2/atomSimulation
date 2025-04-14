@@ -1,0 +1,5 @@
+Alrigt im gonna note some things down in here
+K + log level + text is for logging stuff
+KASSERT(condition) is for checking if a thing is true and if it is then we continue and if its not we break the app, which means just stopping it
+theres also KASSERT_MSG(condition, message), its just the same thing but theres also an additional message that gets printed
+and last thing is KASSERT_DEBUG(condition) which is really just the same thing as KASSERT

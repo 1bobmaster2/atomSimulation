@@ -9,7 +9,8 @@ int main(void) {
     KDEBUG("A test message: %f", 3.14f);
     KTRACE("A test message: %f", 3.14f);
 
-    KASSERT(1 == 1);
+    //test
+    KASSERT_MSG(1 == 1, "hi");
 
     return 0;
 }
