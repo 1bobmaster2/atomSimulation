@@ -3,3 +3,36 @@ K + log level + text is for logging stuff
 KASSERT(condition) is for checking if a thing is true and if it is then we continue and if its not we break the app, which means just stopping it
 theres also KASSERT_MSG(condition, message), its just the same thing but theres also an additional message that gets printed
 and last thing is KASSERT_DEBUG(condition) which is really just the same thing as KASSERT
+platform_startup(&state) is the thing that runs when the application starts up
+it needs a platform_state which can just be declared like this:
+platform_state state;
+basically platform_startup creates a window with all the info needed
+platform_pump_messages is the thing needed to keep things running nice and clean
+platform_shutdown is the thing that basically closes the application
+then theres this:
+---
+void* platform_allocate(u64 size, b8 aligned);
+void platform_free(void* block, b8 aligned);
+void* platform_zero_memory(void* block, u64 size);
+void* platform_copy_memory(void* dest, const void* source, u64 size);
+void* platform_set_memory(void* dest, i32 value, u64 size);
+---
+these weird things are for memory stuff
+
+these stuff:
+---
+void platform_console_write(const char* message, u8 colour);
+void platform_console_write_error(const char* message, u8 colour);
+---
+these are just for platoform independent writing stuff
+
+f64 platform_get_absolute_time(); is for getting time, crazy right 
+
+void platform_sleep(u64 ms); is for eeping.
+
+LOG
+today is 17/04/2025 i didnt want to work much so i tried optimizing some code in my unity project but i failed miserably but its alright
+then i went over to the game engine and just made some more notes, i accually have no idea what im writing im just following this really
+cool tutorial but its ok. also im running out of ideas for the colony i was thinking of starting a new project but i wanna work on this one
+for a bit before continuing.
+END LOG
