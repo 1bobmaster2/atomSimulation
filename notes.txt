@@ -36,3 +36,10 @@ then i went over to the game engine and just made some more notes, i accually ha
 cool tutorial but its ok. also im running out of ideas for the colony i was thinking of starting a new project but i wanna work on this one
 for a bit before continuing.
 END LOG
+
+LOG
+today is 19/04/2025 i coded a bit in my engine im not gonna work on the colony today but i know what im going to add and then im gonna
+work on a new unity project because the thing is that i could work on the colony forever, adding more and more stuff but i don't want to
+i want to start something new to expand my skills, its going to be a 3d game now and im going to really polish it because looking at the colony
+its really like a steaming pile of random stuff but im proud of it its my biggest achievment in game dev.
+END LOG
