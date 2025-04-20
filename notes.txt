@@ -43,3 +43,15 @@ work on a new unity project because the thing is that i could work on the colony
 i want to start something new to expand my skills, its going to be a 3d game now and im going to really polish it because looking at the colony
 its really like a steaming pile of random stuff but im proud of it its my biggest achievment in game dev.
 END LOG
+
+LOG
+today is 20/04/2025 i wanted to focus on the colony today because i didnt work on it yesterday, i think ive made some good progress on
+it with the max fps thingy, right now im waiting for unity to open because its like so slow it takes 30 seconds to run the project also
+it just opened now im going to stop writing soon but also i need to write here that i always make sure to do even a tiniest bit of
+coding every day but now ive realized summer is getting closer and closer and i thought to myself what will i do when i go on vacation
+and i can't code like theres so many people saying they can't find motivation to start and i can't stop because i need to keep working
+on my projects anyways this has been a long entry but it feels good to write down my coding thoughts or something bye
+P.S.
+ive did the thing i wanted on the colony so now i can relax i wonder if anyone is reading this but idk no one has ever downloaded my game but
+thats fine i think my next one is gonna be good
+END LOG
