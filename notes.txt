@@ -55,3 +55,13 @@ P.S.
 ive did the thing i wanted on the colony so now i can relax i wonder if anyone is reading this but idk no one has ever downloaded my game but
 thats fine i think my next one is gonna be good
 END LOG
+
+LOG
+today is 21/04/2025 i wanted to write this after im finished on the colony and atom simulation but look, ive decided to mark the tiles
+in the colony as static to improve performance right, so then i decided to set the map size to 1000 by 1000 and not 100 by 100 and i
+have literally been waiting for 14 minutes for the colony to run like dude, ill write down in post scriptum how much time did it accually
+take but this is crazy. also once im done with the colony i think im gonna work on atom simulation and then relax also as im writing this 
+the colony has been trying to load for 16 minutes now.
+P.S.
+idk how long would it take but as of writing this it has been loading for 43 minutes so this is crazy right
+END LOG

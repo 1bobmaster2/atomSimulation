@@ -3,6 +3,7 @@
 #include "platform/platform.h"
 
 typedef struct application_state {
+    game* game_inst;
     b8 is_running;
     b8 is_suspended;
     platform_state platform;
@@ -14,12 +15,14 @@ typedef struct application_state {
 static b8 initialized = FALSE;
 static application_state app_state;
 
-b8 application_create(application_config* config)
+b8 application_create(game* game_inst)
 {
     if (initialized) {
         KERROR("application_create called more than once.");
         return FALSE;
     }
+
+    app_state.game_inst = game_inst;
 
     // Initialize subsystems.
     initialize_logging();
@@ -35,7 +38,13 @@ b8 application_create(application_config* config)
     app_state.is_running = TRUE;
     app_state.is_suspended = FALSE;
 
-    if(!platform_startup(&app_state.platform, config->name, config->start_pos_x, config->start_pos_y, config->start_width, config->start_height))
+    if(!platform_startup(
+        &app_state.platform, 
+        game_inst->app_config.name, 
+        game_inst->app_config.start_pos_x, 
+        game_inst->app_config.start_pos_y, 
+        game_inst->app_config.start_width, 
+        game_inst->app_config.start_height))
     {
         return FALSE;
     }
