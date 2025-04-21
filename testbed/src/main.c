@@ -1,11 +1,19 @@
 #include <core/logger.h>
 #include <core/asserts.h>
-#include <platform/platform.h>
+#include <core/application.h>
 
 int main(void) {
-    
+    // Application configuration.
+    application_config config; 
+    config.start_pos_x = 100;
+    config.start_pos_y = 100;
+    config.start_width = 1200;
+    config.start_height = 720;
+    config.name = "henlo henlo hai";
 
-    
+    application_create(&config);
+ 
+    application_run();
 
     return 0;
 }
