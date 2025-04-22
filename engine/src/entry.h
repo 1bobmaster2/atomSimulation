@@ -27,9 +27,17 @@ int main(void) {
     }
     
     
-    application_create(&config);
+    // Initialization.
+    if (!application_create(&game_inst)) {
+        KINFO("Application failed to create!.");
+        return 1;
+    }
  
-    application_run();
+    // Begin the game loop.
+    if(!application_run()) {
+        KINFO("Application did not shutdown gracefully.");
+        return 2;
+    }
 
     application_config config; 
     config.start_pos_x = 100;

@@ -65,3 +65,9 @@ the colony has been trying to load for 16 minutes now.
 P.S.
 idk how long would it take but as of writing this it has been loading for 43 minutes so this is crazy right
 END LOG
+
+LOG
+today is 22/04/2025 i worked a bit on the colony and now im working on atom simulation, ive recently read a bit about data oriented
+technology stack it seems pretty cool but one thing i really really hate about it is that you spend so much time setting up all the pararell 
+threads and ecs and stuff and then unity tells you nope you cant use unity api to do anything but hey atleast you can do 1 + 1
+END LOG
