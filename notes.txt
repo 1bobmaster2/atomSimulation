@@ -71,3 +71,12 @@ today is 22/04/2025 i worked a bit on the colony and now im working on atom simu
 technology stack it seems pretty cool but one thing i really really hate about it is that you spend so much time setting up all the pararell 
 threads and ecs and stuff and then unity tells you nope you cant use unity api to do anything but hey atleast you can do 1 + 1
 END LOG
+
+LOG
+today is 23/04/2025 i have a plan on what to add to the colony but i haven't worked much on it today, i had a history exam today so i didn'take
+feel like coding a lot today, i sometimes have to remind myself that wether i am coding or not does not change the person i am
+i feel good for coding almost 80 days straight i feel like my skills improved a lot. im happy that i didn't become a...
+vibe coder, i mean like it isnt even coding its just commanding a slave or something but yeah and also the time it takes to enter play mode
+in the colony is horrendous it took unity 15 seconds at first, then it degraded into 33, now its 50 SECONDS, in 3 days performance has degraded
+from 33 to 50 this is crazy also i didnt work on atom simulation today but its fine.
+END LOG
